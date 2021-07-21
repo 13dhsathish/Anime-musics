@@ -1,0 +1,81 @@
+h1 {
+    color: #fff;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+
+}
+body{
+    background-color:rgba(15, 15, 15, 0.89);
+}
+.Header{
+    margin: 0px;
+    background-color:rgb(29, 4, 58);
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    display: flex;
+}
+.Grid{
+    display: flex;
+   border: 2px solid #f3d10e;
+   border-radius: 50px;
+}
+.grid img {
+    border: solid;
+    border-color: rgb(76, 0, 252);
+    border-width: 60px;
+}
+p, h2{
+    text-align: center;
+}
+.Item{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #60a0f5;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #920bec;
+}
+.a:link{
+    color: #ffff;
+}
+.a:visited{
+    color: #ffff;
+}
+.item p{
+    position: relative;
+    font-size: 50px;
+    color: rgba(4, 50, 255, 0.959);
+    font-family: Comic Sans MS;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    opacity: 0;
+}
+.Item:hover p{
+    opacity: 1;
+}
+.Item:hover img{
+    opacity: 0.2;
+    position: absolute;
+}
+.menu{
+    margin-right: 30px;
+}
+.menu a{
+    margin-left: 20px;
+    }
